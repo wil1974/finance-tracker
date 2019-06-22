@@ -71,3 +71,8 @@ end
 #https://github.com/plataformatec/devise
 gem  'devise'
 
+#https://github.com/tyrauber/stock_quote  - harder to use than the iex-client
+#gem "stock_quote", '~> 3.0.0'
+
+#https://github.com/dblock/iex-ruby-client
+gem 'iex-ruby-client'

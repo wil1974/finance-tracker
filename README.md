@@ -12,6 +12,7 @@ Things you may want to cover:
 - to push to heroku => git push heroku master
 - View information about your running app => heroku logs --tail
 - Find out heroku app name => heroku open
+- Migrate DB => heroku run rake db:migrate
 
 for more https://devcenter.heroku.com/articles/getting-started-with-ruby#define-a-procfile
 
@@ -33,6 +34,11 @@ rails s -b 0.0.0.0
 * ...
 
 * To find LOCALhost URL :https://codenvy.io/dashboard/#/workspace/williamlim74/stockappsg?tab=Servers
+- find machine -> server
 
 url CHANGES EVERYTIME.
-http://node16.codenvy.io:54764
+http://node20.codenvy.io:40118
+
+
+* stock quotes from IEX
+-> https://iexcloud.io/console/
