@@ -10,6 +10,16 @@ end
 gem 'rails', '~> 5.0.1'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
+
+
+#https://github.com/seyhunak/twitter-bootstrap-rails
+gem 'twitter-bootstrap-rails'
+#have to add jquery gem for rails 5 if using boostrap
+gem 'jquery-rails'
+#to have bootstrap into devise  - https://github.com/hisea/devise-bootstrap-views
+gem 'devise-bootstrap-views'
+
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -57,3 +67,7 @@ group :production do
 #If using Rails 5: you only need to add gem 'pg' in your production group, you don't need to add gem 'rails_12factor'. 
     gem 'pg'
 end
+
+#https://github.com/plataformatec/devise
+gem  'devise'
+
