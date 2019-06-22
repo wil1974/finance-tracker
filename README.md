@@ -42,3 +42,5 @@ http://node20.codenvy.io:40118
 
 * stock quotes from IEX
 -> https://iexcloud.io/console/
+-> list of APi fields -> https://iexcloud.io/docs/api/#versioning
+-> do not use test-data, it does not work for api calls
