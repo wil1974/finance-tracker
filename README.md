@@ -18,8 +18,11 @@ for more https://devcenter.heroku.com/articles/getting-started-with-ruby#define-
 
 
 * Configuration
+add gem 'rb-readline'  to access rails console in codenvy
+
 
 * Database creation
+#access your databaase for db queries, run => rails dbconsole
 
 * Database initialization
 

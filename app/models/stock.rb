@@ -1,4 +1,6 @@
 class Stock < ApplicationRecord
+    has_many    :user_stocks
+    has_many    :users, through: :user_stocks
     
     @stock= IEX::Api::Client.new(publishable_token: 'pk_e54b86f67a9b4a79b05d7e490a0ed813')  
     
@@ -20,4 +22,10 @@ class Stock < ApplicationRecord
             return nil
         end
     end
+    
+    
+    def self.find_by_ticker(ticker_symbol)
+        where(ticker: ticker_symbol).first
+    end
+    
 end
