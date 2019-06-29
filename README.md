@@ -40,8 +40,7 @@ rails s -b 0.0.0.0
 - find machine -> server
 
 url CHANGES EVERYTIME.
-http://node19.codenvy.io:42461
-
+http://node23.codenvy.io:39577
 
 * stock quotes from IEX
 -> https://iexcloud.io/console/
